@@ -16,8 +16,8 @@ Below are the parameters that the template expects
 
 | Name   | Description    |
 |:--- |:---|
-| storageAccountName    | Name of the storage account to create    |
-| location  | Location where to deploy the resource <br><ul>**Allowed Values**<li>West US</li><li>East US</li><li>**West Europe (default)**</li><li>East Asia</li><li>Southeast Asia</li>|
+| storageAccountName  | Name of the storage account to create    |
+| location  | Location where to deploy the resource <br><ul>**Allowed Values**<li>**West US (default)**</li><li>East US</li><li>West Europe</li><li>East Asia</li><li>Southeast Asia</li>|
 | domainName | The FQDN of the AD Domain created |
 | adminUsername | Domain admin username |
 | adminPassword | Domain admin password |
