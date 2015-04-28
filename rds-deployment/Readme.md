@@ -2,7 +2,7 @@
 
 This template deploys the following resources:
 
-<ul><li>. storage account;</li><li>. vnet, public ip, load balancer;</li><li>. domain controller vm;</li><li>. RD Gateway with RD Web Access vm;</li><li>. RD Connection Broker with Licensing server vm;</li><li>. a number of RD Session hosts (number defined by a parameter)</li></ul>
+<ul><li>storage account;</li><li>vnet, public ip, load balancer;</li><li>domain controller vm;</li><li>RD Gateway/RD Web Access vm;</li><li>RD Connection Broker/RD Licensing Server vm;</li><li>a number of RD Session hosts (number defined by 'numberOfRdshInstances' parameter)</li></ul>
 
 The template will deploy DC, join all vms to the domain and configure RDS roles in the deployment.
 
@@ -23,7 +23,7 @@ Below are the parameters that the template expects
 | adminPassword | Domain admin password |
 | sourceImageName | Name of image to use for all the vm <br> <ul><li>a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-201503.01-en.us-127GB.vhd **(default)**</li></ul>|
 | publicDnsName | The DNS prefix for the public IP address |
-| numberOfRdshInstances | Number of RDSH instances |
-| rdshVmSize | The size of the RDSH VMs |
+| numberOfRdshInstances | Number of RDSH instances **(default: 2)** |
+| rdshVmSize | The size of the RDSH VMs **(default: Standard_A2)** |
 
 
