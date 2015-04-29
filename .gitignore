@@ -16,3 +16,5 @@ rds-deployment/Configuration.ps1/xActiveDirectory/DSCResources/MSFT_xADUser/MSFT
 rds-deployment/Configuration.ps1/xActiveDirectory/xActiveDirectory_TechNetDocumentation.html
 rds-deployment/Configuration.ps1/xComputerManagement/DSCResources/MSFT_xComputer/MSFT_xComputer.psm1
 rds-deployment/Configuration.ps1/xComputerManagement/DSCResources/MSFT_xComputer/MSFT_xComputer.schema.mof
+dsc-extension-iis-server-windows-vm/my-azuredeploy-parameters.json
+dsc-extension-iis-server-windows-vm/test.ps1
