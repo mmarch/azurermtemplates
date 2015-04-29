@@ -1,7 +1,7 @@
 {
-	"itemDisplayName": "Creates a Remote Desktop Session Host deployment.",
-	"description": "This template creates a simple RDSH deployment",
-	"summary": "Creates RDSH deployment",
+	"itemDisplayName": "Virtual machine with an RDP port",
+	"description": "Creates a vrtual machine and creates a NAT rule for RDP to the VM in load balancer",
+	"summary": "Creates a virtual machine with RDP port",
 	"githubUsername": "mmarch",
 	"dateUpdated": "2015-04-20"
 }
