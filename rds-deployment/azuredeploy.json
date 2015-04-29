@@ -53,7 +53,7 @@
         },
         "adminUsername": {
             "type": "string",
-            "defaultValue": "dadmin1",
+            "defaultValue": "cloudguy",
             "metadata": {
                 "Description": "The name of the administrator of the new VM and the domain. Exclusion list: 'administrator'"
             }
